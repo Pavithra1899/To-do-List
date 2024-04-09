@@ -1,0 +1,56 @@
+h3{
+    color: #333; /* Title color */
+    font-size: 24px; /* Title font size */
+    margin-bottom: 20;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.box{
+    width: 300px; /* Adjust the width as needed */
+    margin: auto; /* Center horizontally */
+    position: absolute; /* Position relative to the document */
+    top: 50%; /* Move the div down by 50% of the viewport height */
+    left: 50%; /* Move the div right by 50% of the viewport width */
+    transform: translate(-50%, -50%); /* Center vertically and horizontally */
+    background-color: #f0f0f0; /* Background color for visualization */
+    padding: 20px; /* Add padding for content inside the div */
+    border-radius: 10px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /
+}
+input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add space below input */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width */
+    font-size: 16px; /* Font size */
+}
+
+button {
+    padding: 10px 20px; /* Padding */
+    margin: 0 5px; /* Add space between buttons */
+    background-color: #4CAF50; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    font-size: 16px; /* Font size */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker background color on hover */
+}
+ul {
+    list-style-type: none; /* Change the bullet style */
+    margin-top: 20px; /* Add some space above the list */
+}
+
+/* Styles for list items */
+li {
+    color: #333; /* Change text color */
+    font-size: 16px; /* Change font size */
+    margin-bottom: 5px; /* Add space between list items */
+}

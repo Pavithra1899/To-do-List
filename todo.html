@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <title>To-Do List</title>
+  </head>
+
+  <body>
+    <section class="section">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="logo">
+          <h3>To-Do List</h3>
+        </div>
+      </nav>
+          <div class="box">
+            <input id ="task-input" type="text" placeholder="Add a new task" /> <button onclick="add()"><i>Add</i></button>
+            <button onclick="deleha()"><i>Clear All</i></button>
+            <ul id="hello">
+            </ul>
+          </div>
+          
+    </section>
+    <!-- Script -->
+    <script>
+    var one = document.getElementById("task-input") 
+    var three = document.getElementById("hello")
+    function add(){
+        var two = document.createElement("li")
+        two.textContent = one.value
+        three.append(two)
+    }
+    function deleha(){
+        three.innerHTML = " "
+    }
+    </script>
+  </body>
+</html>
